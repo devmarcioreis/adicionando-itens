@@ -1,0 +1,103 @@
+@charset "UTF-8";
+
+/*==========Google Fonts==========*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+/*==========HTML==========*/
+html {
+    background: #042940;
+    height: 100%;
+    font-family: 'Poppins', sans-serif;
+}
+
+/*==========Conteúdo==========*/
+.conteudo {
+    padding: 10vh 3em 0;
+    display: flex;
+    align-items: flex-start;
+    gap: 2em;
+}
+
+/*==========Principal==========*/
+.principal {
+    flex-grow: 1;
+    flex-basis: auto;
+    min-width: 600px;
+    padding: 4em 2em 2em;
+    box-sizing: border-box;
+    box-shadow: 1px 1px 10px #000;
+    display: flex;
+    background: linear-gradient(to right, #13678A, #45C4B0);
+    border-radius: 10px;
+    gap: 2em;
+}
+
+/*==========Formulário==========*/
+.adicionar {
+    width: 100%;
+}
+.text {
+    font-weight: 900;
+    color: #06182D;
+}
+.uil-edit {
+    color: #fff;
+    font-size: 1.2rem;
+}
+.adicionar input {
+    width: 100%;
+    box-sizing: border-box;
+    margin: 0.5em 0 1em;
+    padding: 1em 0.5em;
+    border-radius: 10px;
+    border: 2px solid 000;
+}
+.adicionar label {
+    display: block;
+}
+.cadastrar {
+    background: #042940;
+    color: #fff;
+    font-weight: 900;
+    cursor: pointer;
+    transition: all .5s ease;
+    border: none;
+    text-transform: uppercase;
+    letter-spacing: .5rem;
+}
+.cadastrar:hover {
+    background: #13678A;
+    transition: all .5s ease;
+}
+
+/*==========Lista==========*/
+.lista {
+    margin: 0;
+    padding: 0;
+}
+.item {
+    list-style: none;
+    padding: 0.6em 2em;
+    background: #042940;
+    color: #fff;
+    border-radius: 10px;
+    margin: 0 0 1em;
+    width: 100%;
+    box-sizing: border-box;
+    box-shadow: 1px 1px 10px #000;
+    display: inline-flex;
+    align-items: center;
+    gap: 1em;
+    font-size: 20px;
+    font-weight: 400;
+}
+.item strong {
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    Background: #45C4B0;
+    font-weight: 400;
+}

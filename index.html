@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!----------Icon---------->
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+     <!----------CSS---------->
+     <link rel="stylesheet" href="css/normalize.css">
+     <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <!----------Título---------->
+    <title>Adcionar itens</title>
+</head>
+
+<body>
+    <main class="conteudo">
+        <div class="principal">
+
+            <form action="" class="adicionar" id="novoItem">
+                <label class="text" for="nome">Nome do item <i class="uil uil-edit"></i></label>
+                <input type="text" name="nome" id="nome" placeholder="Escreva o nome do item...">
+
+                <label class="text" for="quantidade">Quantidade de itens <i class="uil uil-edit"></i></label>
+                <input type="number" name="quantidade" id="quantidade" placeholder="Escreva a quantidade de itens...">
+
+                <input type="submit" value="Adicionar" class="cadastrar" id="cadastrar">
+            </form>
+
+        </div>
+        
+        <ul class="lista" id="lista"></ul>
+    </main>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
